@@ -1,0 +1,21 @@
+{
+  "name": "@it-architecture/soap-server",
+  "version": "1.0.0",
+  "description": "SOAP SERVER",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "express": "^4.16.4",
+    "soap": "^0.26.0",
+    "source-map-loader": "^0.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
